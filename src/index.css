@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  min-height: 100vh;
+}
+
+/*transitions*/
+.f-transition{
+  transition: all 0.3s ease-in-out;
+}
+.h-transition{
+  transition: all 0.6s ease-in-out;
+}
