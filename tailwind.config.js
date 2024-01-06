@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'good-times': ['Good Times Rg', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
