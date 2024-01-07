@@ -13,3 +13,17 @@ body{
 .h-transition{
   transition: all 0.6s ease-in-out;
 }
+.my-backdrop-filter {
+  backdrop-filter: blur(17.5px);
+}
+.text-shadow{
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 0px 13.9px #FFF;
+;
+ 
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
