@@ -5,18 +5,30 @@ import { ToastContainer } from "react-toastify";
 import About from "./utils/About";
 import Time from "./utils/Time";
 
+=======
+import NavBar from "./utils/NavBar";
+import FirstSec from "./utils/FirstSec";
+import Context from "./Context";
 function App() {
   const [modal, setModal] = useState(false)
   const [typeStart, setTypeStart] = useState('')
   const [typeEnd, setTypeEnd] = useState('')
   const toogleModal = () => {
     setModal(!modal)
+    console.log(modal)
   }
   return (
+
     <>
       <Time />
       <About />
     </>
+    <Context.Provider value={{ toogleModal, modal }}>
+      <div className="w-[100%] bg-[#1B1919]">
+      <NavBar />
+      <FirstSec /></div>
+    </Context.Provider>
+
   );
 }
 
