@@ -18,10 +18,13 @@ function App() {
   return (
     <Context.Provider value={{ toogleModal, modal }}>
       <div className="w-[100%] bg-[#1B1919]">
-      <NavBar />
-      <FirstSec />
-      <Time />
-      <About /></div>
+        <NavBar />
+        <div className="container_wrapper">
+          <FirstSec />
+          <Time />
+          <About />
+        </div>
+      </div>
     </Context.Provider>
   );
 }

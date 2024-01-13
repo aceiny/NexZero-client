@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const FirstSec = () => {
     let { modal } = useContext(Context)
   return (
-      <div className='relative bg-[url("../assets/firstsec.png")] bg-cover bg-center pt-[100px] overflow-hidden min-h-[100vh] w-[100vw] overflow-x-hidden flex items-center justify-center'>
+      <div className='section relative bg-[url("../assets/firstsec.png")] overflow-hidden bg-cover bg-center pt-[100px] min-h-[100vh] w-[100vw] overflow-x-hidden flex items-center justify-center'>
         
           <div className={`  flex flex-col items-center h-[auto] min-h-[638px] bg-opacity-5 rounded-[36px] py-[5.3vw] px-[5vw] my-backdrop-filter w-[69.4vw] z-[10] origin-top transition-all  ${modal ? " scale-100" : "scale-0"} `}>
            

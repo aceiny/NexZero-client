@@ -5,7 +5,7 @@ import binaire from '../../public/assets/binaire.png'
 
 const Time = () => {
     return(
-        <section className="h-[100vh] bg-[#1B1919] mx-[auto] my-[auto] flex flex-col justify-center items-center">
+        <section className="section h-[100vh] bg-[#1B1919] mx-[auto] my-[auto] flex flex-col justify-center items-center">
             <h1 className="text-[#F05323] text-center text-[60px] font-[700] font-good-times mb-[10px] uppercase [text-shadow:0px_0px_17.8px_#F05323]">Time Left</h1>
             <div className="relative">
                 <img src={screen} className="w-[700px] " alt="screen"/>

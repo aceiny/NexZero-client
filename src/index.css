@@ -7,16 +7,6 @@ body{
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-body::-webkit-scrollbar {
-  width: 0.5em;
-}
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px black;
-}
-body::-webkit-scrollbar-thumb {
-  background-color: #F05323;
-  outline: none
-}
 /*transitions*/
 .f-transition{
   transition: all 0.3s ease-in-out;
@@ -35,4 +25,26 @@ body::-webkit-scrollbar-thumb {
   font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
+}
+.container_wrapper{
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.container_wrapper::-webkit-scrollbar {
+  width: 0.5em;
+}
+.container_wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px black;
+}
+.container_wrapper::-webkit-scrollbar-thumb {
+  background-color: #F05323;
+  outline: none
+}
+
+.section{
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
 }
