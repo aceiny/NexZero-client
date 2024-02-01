@@ -8,6 +8,7 @@ import Time from "./utils/Time";
 import About from "./utils/About";
 import Context from "./Context";
 import Reg from "./utils/Reg";
+import ThirdSection from "./utils/ThirdSection";
 
 function App() {
   const [modal, setModal] = useState(false);
@@ -29,6 +30,7 @@ function App() {
           <FirstSec />
           <Time />
           <About />
+          <ThirdSection />
         </div>
       </div>
     </Context.Provider>
