@@ -48,3 +48,63 @@ body{
   scroll-snap-align: start;
   scroll-behavior: smooth;
 }
+
+
+/* slide styles  */
+.main-slide{
+  position: relative;
+}
+
+.main-slide .splide__arrow{
+  color: #F0532324;
+  font-size: 2.4rem;
+  position: absolute;
+  bottom: -50px;
+
+
+  cursor: pointer;
+  transition: 400ms;
+}
+.main-slide .splide__arrow:hover{
+  color: #F05323;
+  filter: drop-shadow(0px 0px 10px #F05323);
+
+}
+
+
+.main-slide .splide__arrow--prev{
+  left: 10%;
+  transform: rotate(270deg);
+
+}
+.main-slide .splide__arrow--next{
+  right: 10%;
+  transform: rotate(90deg);
+
+}
+@media (min-width: 768px) {
+  .main-slide .splide__arrow--prev{
+    left: 30%;
+  }
+  .main-slide .splide__arrow--next{
+    right: 30%;
+  }
+}
+.main-slide .splide__pagination{
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 12px;
+}
+.main-slide .splide__pagination__page{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #F0532324;
+}
+.main-slide .splide__pagination__page.is-active{
+  background-color: #F05323;
+  box-shadow: 0px 0px 10px #F05323;
+
+}
