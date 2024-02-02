@@ -9,6 +9,7 @@ import About from "./utils/About";
 import Context from "./Context";
 import Reg from "./utils/Reg";
 import ThirdSection from "./utils/ThirdSection";
+import Mentors from "./utils/Mentors";
 
 function App() {
   const [modal, setModal] = useState(false);
@@ -31,6 +32,7 @@ function App() {
           <Time />
           <About />
           <ThirdSection />
+          <Mentors />
         </div>
       </div>
     </Context.Provider>
