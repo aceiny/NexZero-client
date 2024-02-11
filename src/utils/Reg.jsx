@@ -5,7 +5,7 @@ const Reg = () => {
     let { modal } = useContext(Context);
   return (
     <div
-    className={` absolute top-[50%] right-[50%] translate-x-[50%] translate-y-[-50%] z-[10000] flex flex-col items-center h-[auto] min-h-[638px] bg-opacity-5 rounded-[36px] py-[5.3vw] px-[5vw] my-backdrop-filter w-[69.4vw] z-[100000] origin-top transition-all   ${
+    className={` absolute top-[50%] right-[50%] translate-x-[50%] translate-y-[-50%] flex flex-col items-center h-fit bg-opacity-5 rounded-[36px] py-[5.3vw] px-[5vw] shadow-md  my-backdrop-filter w-[86vw] lg:w-[69.4vw] z-[100000] origin-top transition-all   ${
       modal ? " scale-100" : "scale-0"
     } `}
   >
