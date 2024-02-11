@@ -1,6 +1,6 @@
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
-import mentor1Image from "../../public/assets/mentors/mentor1.png";
+import mentor1Image from "../../public/assets/NEXZERO LOGO2.png";
 
 import { BsFillTriangleFill } from "react-icons/bs";
 import MentorCard from "./MentorCard";
@@ -8,31 +8,31 @@ import MentorCard from "./MentorCard";
 const Mentors = () => {
   const mentors = [
     {
-      name: "youcef",
-      surname: "boobchich",
-      job: " 2cp student",
-      experience: " app developer, lil nigga",
+      name: "Stay",
+      surname: "Tuned",
+      job: " ....",
+      experience: " ........",
       image: mentor1Image,
     },
     {
-      name: "youcef",
-      surname: "boobchich",
-      job: " 2cp student",
-      experience: " app developer, lil nigga",
+      name: "Stay",
+      surname: "Tuned",
+      job: " ....",
+      experience: " ........",
       image: mentor1Image,
     },
     {
-      name: "youcef",
-      surname: "boobchich",
-      job: " 2cp student",
-      experience: " app developer, lil nigga",
+      name: "Stay",
+      surname: "Tuned",
+      job: " ....",
+      experience: " ........",
       image: mentor1Image,
     },
     {
-      name: "youcef",
-      surname: "boobchich",
-      job: " 2cp student",
-      experience: " app developer, lil nigga",
+      name: "Stay",
+      surname: "Tuned",
+      job: " ....",
+      experience: " ........",
       image: mentor1Image,
     },
   ];

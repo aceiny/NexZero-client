@@ -6,10 +6,10 @@ const MentorCard = ({ mentor }) => {
 
       </div>
       <div className=" flex flex-col gap-1 md:gap-4 text-lg md:text-2xl font-bold text-gray-50 capitalize [text-shadow:0px_0px_2px_#fff] ">
-        <h1>name : <span className=" font-medium ml-4">{mentor.name}</span> </h1>
-        <h1>surname : <span className=" font-medium ml-4">{mentor.surname}</span></h1>
-        <h1>job : <span className=" font-medium ml-4">{mentor.job}</span></h1>
-        <h1>experience : <span className=" font-medium ml-4">{mentor.experience}</span></h1>
+        <h1>name : <span className=" font-medium ml-4 tracking-wider">{mentor.name}</span> </h1>
+        <h1>surname : <span className=" font-medium ml-4 tracking-wider">{mentor.surname}</span></h1>
+        <h1>job : <span className=" font-medium ml-4 tracking-wider">{mentor.job}</span></h1>
+        <h1>experience : <span className=" font-medium ml-4 tracking-wider">{mentor.experience}</span></h1>
       </div>
       
     </div>
