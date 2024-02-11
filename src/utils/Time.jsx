@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import laptop from '../../public/assets/laptop.png'
 const Time = () => {
-    const eventDate = new Date("2024-01-26T18:00:00");
+    const eventDate = new Date("2024-02-22T18:00:00");
 
     const calculateRemainingTime = () => {
       const currentDate = new Date();
