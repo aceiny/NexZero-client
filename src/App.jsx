@@ -12,7 +12,7 @@ import ThirdSection from "./utils/ThirdSection";
 import Mentors from "./utils/Mentors";
 import Sponsors from "./utils/Sponsors";
 import OurSponsors from "./utils/OurSponsors";
-
+import Faq from "./utils/Faq";
 function App() {
   const [modal, setModal] = useState(false);
   const [typeStart, setTypeStart] = useState("");
@@ -36,7 +36,8 @@ function App() {
           <ThirdSection />
           <Mentors />
           <OurSponsors />
-          <Sponsors/>
+          <Sponsors />
+          <Faq/>
         </div>
       </div>
     </Context.Provider>
