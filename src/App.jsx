@@ -13,6 +13,8 @@ import Mentors from "./utils/Mentors";
 import Sponsors from "./utils/Sponsors";
 import OurSponsors from "./utils/OurSponsors";
 import Faq from "./utils/Faq";
+import Agenda from "./utils/Agenda";
+
 function App() {
   const [modal, setModal] = useState(false);
   const [typeStart, setTypeStart] = useState("");
@@ -37,6 +39,7 @@ function App() {
           <Mentors />
           <OurSponsors />
           <Sponsors />
+          <Agenda />
           <Faq/>
         </div>
       </div>
