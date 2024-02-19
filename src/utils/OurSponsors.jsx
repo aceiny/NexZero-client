@@ -11,7 +11,7 @@ const OurSponsors = () => {
         our sponsors
         </h1>
         <div className=' relative bg-white flex flex-col items-center h-fit bg-opacity-5 rounded-[36px] py-[5.3vw] px-[5vw] shadow-md  my-backdrop-filter w-[86vw] lg:w-[69.4vw] z-[100000]'>
-            <img src={group} className=' absolute  opacity-60 left-[50%] translate-x-[-50%] blur-lg ' alt="" />
+            <img src={group} className=' absolute translate-y-[-25%] opacity-60 left-[50%] translate-x-[-50%] blur-lg ' alt="" />
             <span className='font-[Poppins] z-50 text-white text-[20px] sm:text-[25px] md:text-[30px] lg:text-[40px] font-[600]'>
                 We are honored to collaborate with companies and organizations sharing the same passion for cybersecurity, and this event have been impossible to organize without the contribution of these generous organisations:
             </span>
