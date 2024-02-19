@@ -10,6 +10,8 @@ import Context from "./Context";
 import Reg from "./utils/Reg";
 import ThirdSection from "./utils/ThirdSection";
 import Mentors from "./utils/Mentors";
+import Sponsors from "./utils/Sponsors";
+import OurSponsors from "./utils/OurSponsors";
 
 function App() {
   const [modal, setModal] = useState(false);
@@ -33,6 +35,8 @@ function App() {
           <About />
           <ThirdSection />
           <Mentors />
+          <OurSponsors />
+          <Sponsors/>
         </div>
       </div>
     </Context.Provider>
