@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
@@ -27,7 +26,7 @@ const Faq = () => {
               })}
             </SplideTrack>
 
-            <div className="splide__arrows">
+            <div className="splide__arrows ">
               <BsFillTriangleFill className=" splide__arrow splide__arrow--prev" />
               <BsFillTriangleFill className=" splide__arrow splide__arrow--next" />
             </div>
