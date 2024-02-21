@@ -1,4 +1,3 @@
-import React from "react";
 import { useContext } from "react";
 import Context from "../Context";
 const Reg = () => {
@@ -23,8 +22,8 @@ const Reg = () => {
         crew, where minds are connected, and data is secured.
       </p>
       <a 
-        
-        className={` flex justify-center items-center bg-grey-200 text-white text-[26px]  font-bold capitalize font-good-times rounded-[20px] max-w-[315px]  text-center max-sm:text-[15px] px-2 h-[74px] cursor-pointer mt-[51px]`}
+        href="https://u5pxwdsq4v9.typeform.com/to/WWFDsyU3"
+        className={` flex justify-center items-center bg-[#F05323]  text-white text-[26px]  font-bold capitalize font-good-times rounded-[20px] max-w-[315px]  text-center max-sm:text-[15px] px-2 h-[74px] cursor-pointer mt-[51px]`}
       >
         register now
       </a>
