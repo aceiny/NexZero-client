@@ -6,7 +6,7 @@ const OurSponsors = () => {
         document.querySelector('.sponsorsSec').scrollIntoView({behavior: 'smooth'})
     }
   return (
-    <div className=' relative gap-[10vh] justify-center section h-screen flex items-center flex-col'>
+    <div className=' py-[25px] relative gap-[10vh] justify-center section h-screen flex items-center flex-col'>
         <h1 className="text-[#F05323] mt-[3%] text-center text-[60px] font-[700] font-good-times mb-[10px] uppercase [text-shadow:0px_0px_17.8px_#F05323] z-[100] max-md:text-[40px] max-md:mt-[10%]">
         our sponsors
         </h1>
