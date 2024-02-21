@@ -7,7 +7,7 @@ import SponsorCard from "./SponsorCard";
 import { SponsorsData } from "../data/sponsors";
 const Sponsors = () => {
   return (
-    <section className="section  sponsorsSec relative  overflow-hidden h-[100vh] max-lg:h-auto bg-[#1B1919] mx-[auto] my-[auto] flex flex-col justify-center items-center">
+    <section className="section  pt-[40px] sponsorsSec relative  overflow-hidden h-[100vh] max-lg:h-auto bg-[#1B1919] mx-[auto] my-[auto] flex flex-col justify-center items-center">
       <h1 className="text-[#F05323] mt-[3%] text-center text-[60px] font-[700] font-good-times mb-[10px] uppercase [text-shadow:0px_0px_17.8px_#F05323] z-[100] max-md:text-[40px] max-md:mt-[10%]">
         our sponsors
       </h1>
