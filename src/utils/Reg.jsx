@@ -22,10 +22,9 @@ const Reg = () => {
         crew, where minds are connected, and data is secured.
       </p>
       <a 
-        href="https://u5pxwdsq4v9.typeform.com/to/WWFDsyU3"
-        className={` flex justify-center items-center bg-[#F05323]  text-white text-[26px]  font-bold capitalize font-good-times rounded-[20px] max-w-[315px]  text-center max-sm:text-[15px] px-2 h-[74px] cursor-pointer mt-[51px]`}
+        className={` flex justify-center items-center  text-white text-[26px]  font-bold capitalize font-good-times rounded-[20px] max-w-[315px]  text-center max-sm:text-[15px] px-5 border border-white h-[74px] cursor-pointer mt-[51px]`}
       >
-        register now
+        closed
       </a>
     </div>
   );
